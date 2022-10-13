@@ -14,14 +14,14 @@ Opensource app designed for Flutter Developers
 
 5.Use this struture to add your data
 
- Flutterdevelopers(
+ ```Flutterdevelopers(
     name: 'enter you name here',
     title: 'Flutter Eng.',
     twitterlink: 'enter your twitter handle',
     instalink: 'enter your instagram handle',
     githublink: 'enter your github handle',
     userimagename: 'yourimage name',
-  ),
+  ),```
   
 6.Upload a image for your profile in assets folder.(Name it with first letter and last letter of your image.For eg if your name is Andrew Stlye,the name of the image     file should be "asimage", IMP all images should be in png format only)
 

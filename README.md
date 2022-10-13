@@ -14,7 +14,8 @@ Opensource app designed for Flutter Developers
 
 5.Use this struture to add your data
 
- ```Flutterdevelopers(
+ ```
+ Flutterdevelopers(
     name: 'enter you name here',
     title: 'Flutter Eng.',
     twitterlink: 'enter your twitter handle',

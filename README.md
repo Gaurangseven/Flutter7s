@@ -31,7 +31,7 @@ Opensource app designed for Flutter Developers
 
 8.Make a pull request.
 
-![WhatsApp Image 2022-10-13 at 10 26 29](https://user-images.githubusercontent.com/83110436/195505370-4a6e4fe5-406a-439a-b180-ffe359ad398a.jpg=300*300)
+![WhatsApp Image 2022-10-13 at 10 26 29](https://user-images.githubusercontent.com/83110436/195505370-4a6e4fe5-406a-439a-b180-ffe359ad398a.jpg width="400" height="790")
 
 
 You can earn Free swags that include tee and awesome world class branded sticker to showoff your hacking skills.

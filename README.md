@@ -1,5 +1,5 @@
 # Flutter7s💙
-
+![Screenshot (105)](https://user-images.githubusercontent.com/83110436/195504860-674bfed6-77a5-4b0a-9cca-ed1b6d1da0a7.png)
 Opensource app designed for Flutter Developers
 
 ##Steps to Contribute
@@ -30,6 +30,13 @@ Opensource app designed for Flutter Developers
 7.Commit Changes and clone in your device to get the apk running and trying it out.
 
 8.Make a pull request.
+
+![WhatsApp Image 2022-10-13 at 10 26 29](https://user-images.githubusercontent.com/83110436/195505370-4a6e4fe5-406a-439a-b180-ffe359ad398a.jpg)
+
+
+You can earn Free swags that include tee and awesome world class branded sticker to showoff your hacking skills.
+
+##For any help or information follow @https://twitter.com/Gaurang__07
 
 
 

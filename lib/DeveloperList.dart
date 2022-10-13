@@ -40,5 +40,13 @@ List<Flutterdevelopers> dataList = [
     instalink: 'www.instagram.com',
     githublink: 'https://github.com/',
     userimagename: 'terryimage',
+  ),
+  Flutterdevelopers(
+    name: 'Shweta Vishwakarma',
+    title: 'Flutter',
+    twitterlink: 'https://twitter.com/ShwetaVish31',
+    instalink: 'www.instagram.com',
+    githublink: 'https://github.com/shwetavish',
+    userimagename: 'svimage',
   )
 ];

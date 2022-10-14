@@ -18,7 +18,7 @@ class _ListScreenState extends State<ListScreen> {
       backgroundColor: const Color(0xff1b2430),
       appBar: AppBar(
         backgroundColor: const Color(0xff01111d),
-        title: const Text("Devlopers"),
+        title: const Text("Developers"),
       ),
       body: ListView.builder(
           itemCount: dataList.length,
@@ -60,65 +60,79 @@ class InfoBox extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 30, right: 30, top: 15, bottom: 4),
       child: Container(
-        height: 100,
-        color: Color(0xff01111d),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        color: const Color(0xff01111d),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            CircleAvatar(
-              radius: 40,
-              backgroundImage: AssetImage('assets/$uimagename.png'),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  CircleAvatar(
+                    radius: 40,
+                    backgroundImage: AssetImage('assets/$uimagename.png'),
+                  ),
+                  Expanded(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        FittedBox(child: Text(ndata, style: ktextname, textAlign: TextAlign.center,)),
+                        FittedBox(child: Text(ntitle, style: ktitle, textAlign: TextAlign.center,)),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            GestureDetector(
+                              onTap: () {
+                                launchUrl(Uri.parse(tlink));
+                              },
+                              child: Image.asset(
+                                'assets/twitter.png',
+                                height: 20,
+                                width: 20,
+                              ),
+                            ),
+                            const SizedBox(
+                              width: 20,
+                            ),
+                            GestureDetector(
+                              onTap: () {
+                                launchUrl(Uri.parse(ilink));
+                              },
+                              child: Image.asset(
+                                'assets/instagram.png',
+                                height: 20,
+                                width: 20,
+                              ),
+                            ),
+                            const SizedBox(
+                              width: 20,
+                            ),
+                            GestureDetector(
+                              onTap: () {
+                                launchUrl(Uri.parse(glink));
+                              },
+                              child: Image.asset(
+                                'assets/github.png',
+                                height: 20,
+                                width: 20,
+                              ),
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
+                  )
+                ],
+              ),
             ),
-            Column(
-              children: [
-                Text(ndata, style: ktextname),
-                Text(ntitle, style: ktitle),
-                const SizedBox(
-                  height: 20,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    GestureDetector(
-                      onTap: () {
-                        launchUrl(Uri.parse(tlink));
-                      },
-                      child: Image.asset(
-                        'assets/twitter.png',
-                        height: 20,
-                        width: 20,
-                      ),
-                    ),
-                    const SizedBox(
-                      width: 20,
-                    ),
-                    GestureDetector(
-                      onTap: () {
-                        launchUrl(Uri.parse(ilink));
-                      },
-                      child: Image.asset(
-                        'assets/instagram.png',
-                        height: 20,
-                        width: 20,
-                      ),
-                    ),
-                    const SizedBox(
-                      width: 20,
-                    ),
-                    GestureDetector(
-                      onTap: () {
-                        launchUrl(Uri.parse(glink));
-                      },
-                      child: Image.asset(
-                        'assets/github.png',
-                        height: 20,
-                        width: 20,
-                      ),
-                    ),
-                  ],
-                )
-              ],
-            )
           ],
         ),
       ),

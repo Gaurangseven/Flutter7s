@@ -1,4 +1,4 @@
-import 'infoDatatype.dart';
+import 'Model/infoDatatype.dart';
 
 List<Flutterdevelopers> dataList = [
   Flutterdevelopers(
@@ -49,7 +49,15 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/shwetavish',
     userimagename: 'svimage',
   ),
-   Flutterdevelopers(
+  Flutterdevelopers(
+    name: 'Akshat Bhuhagal',
+    title: 'Android/Flutter',
+    twitterlink: 'https://twitter.com/AkshatBhuhagal',
+    instalink: 'www.instagram.com',
+    githublink: 'https://github.com/akshatbhuhagal',
+    userimagename: 'twitter',
+  ),
+  Flutterdevelopers(
     name: 'Abhay Patgar',
     title: 'Flutter',
     twitterlink: 'https://twitter.com/united_emotion',

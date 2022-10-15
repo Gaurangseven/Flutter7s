@@ -1,4 +1,4 @@
-import 'Model/infoDatatype.dart';
+import 'infoDatatype.dart';
 
 List<Flutterdevelopers> dataList = [
   Flutterdevelopers(
@@ -49,15 +49,7 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/shwetavish',
     userimagename: 'svimage',
   ),
-  Flutterdevelopers(
-    name: 'Akshat Bhuhagal',
-    title: 'Android/Flutter',
-    twitterlink: 'https://twitter.com/AkshatBhuhagal',
-    instalink: 'www.instagram.com',
-    githublink: 'https://github.com/akshatbhuhagal',
-    userimagename: 'twitter',
-  ),
-  Flutterdevelopers(
+   Flutterdevelopers(
     name: 'Abhay Patgar',
     title: 'Flutter',
     twitterlink: 'https://twitter.com/united_emotion',
@@ -65,7 +57,7 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/darkbits018',
     userimagename: 'apimage',
   ),
-   Flutterdevelopers(
+  Flutterdevelopers(
     name: 'Jay Nirmal',
     title: 'Flutter Dev',
     twitterlink: 'https://twitter.com/Jaynirmal5',
@@ -74,6 +66,14 @@ List<Flutterdevelopers> dataList = [
     userimagename: 'jnimage',
   ),
   Flutterdevelopers(
+    name: 'Mbah Anya',
+    title: 'Flutter',
+    twitterlink: 'https://twitter.com/EyesNna',
+    instalink: 'www.instagram.com',
+    githublink: 'https://github.com/nnaeyes6',
+    userimagename: 'anyaMbah',
+  ),
+   Flutterdevelopers(
     name: 'Shweta Butani',
     title: 'Flutter Dev',
     twitterlink: 'https://twitter.com/ShwetaVish31',

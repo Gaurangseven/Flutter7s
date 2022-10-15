@@ -66,12 +66,28 @@ List<Flutterdevelopers> dataList = [
     userimagename: 'jnimage',
   ),
   Flutterdevelopers(
+    name: 'Tejas gaikwad',
+    title: 'Flutter developer',
+    twitterlink: 'https://twitter.com/tejasg0504',
+    instalink: 'https://instagram.com/tejas00777',
+    githublink: 'https://github.com/Tejas-gaikwad',
+    userimagename: 'tgimage',
+  ),
+  Flutterdevelopers(
     name: 'Mbah Anya',
     title: 'Flutter',
     twitterlink: 'https://twitter.com/EyesNna',
     instalink: 'www.instagram.com',
     githublink: 'https://github.com/nnaeyes6',
     userimagename: 'anyaMbah',
+  ),
+    Flutterdevelopers(
+    name: 'Tirth Patel',
+    title: 'Flutter',
+    twitterlink: 'https://twitter.com/Tirthkp',
+    instalink: 'www.instagram.com/tirthkp',
+    githublink: 'https://github.com/tirthkp',
+    userimagename: 'tpimage',
   ),
   Flutterdevelopers(
     name: 'Ruchit Soni',

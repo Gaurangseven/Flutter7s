@@ -30,7 +30,6 @@ class _ListScreenState extends State<ListScreen> {
               ilink: dataList[index].instalink.toString(),
               glink: dataList[index].githublink.toString(),
               uimagename: dataList[index].userimagename.toString(),
-
             );
           }),
     );
@@ -63,61 +62,69 @@ class InfoBox extends StatelessWidget {
         height: 100,
         color: Color(0xff01111d),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            CircleAvatar(
-              radius: 40,
-              backgroundImage: AssetImage('assets/$uimagename.png'),
+            Container(
+              width: MediaQuery.of(context).size.width / 5,
+              margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+              child: CircleAvatar(
+                radius: 40,
+                backgroundImage: AssetImage('assets/$uimagename.png'),
+              ),
             ),
-            Column(
-              children: [
-                Text(ndata, style: ktextname),
-                Text(ntitle, style: ktitle),
-                const SizedBox(
-                  height: 20,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    GestureDetector(
-                      onTap: () {
-                        launchUrl(Uri.parse(tlink));
-                      },
-                      child: Image.asset(
-                        'assets/twitter.png',
-                        height: 20,
+            Expanded(
+              child: Column(
+                children: [
+                  Text(ndata,
+                      style: ktextname,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis),
+                  Text(ntitle, style: ktitle),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          launchUrl(Uri.parse(tlink));
+                        },
+                        child: Image.asset(
+                          'assets/twitter.png',
+                          height: 20,
+                          width: 20,
+                        ),
+                      ),
+                      const SizedBox(
                         width: 20,
                       ),
-                    ),
-                    const SizedBox(
-                      width: 20,
-                    ),
-                    GestureDetector(
-                      onTap: () {
-                        launchUrl(Uri.parse(ilink));
-                      },
-                      child: Image.asset(
-                        'assets/instagram.png',
-                        height: 20,
+                      GestureDetector(
+                        onTap: () {
+                          launchUrl(Uri.parse(ilink));
+                        },
+                        child: Image.asset(
+                          'assets/instagram.png',
+                          height: 20,
+                          width: 20,
+                        ),
+                      ),
+                      const SizedBox(
                         width: 20,
                       ),
-                    ),
-                    const SizedBox(
-                      width: 20,
-                    ),
-                    GestureDetector(
-                      onTap: () {
-                        launchUrl(Uri.parse(glink));
-                      },
-                      child: Image.asset(
-                        'assets/github.png',
-                        height: 20,
-                        width: 20,
+                      GestureDetector(
+                        onTap: () {
+                          launchUrl(Uri.parse(glink));
+                        },
+                        child: Image.asset(
+                          'assets/github.png',
+                          height: 20,
+                          width: 20,
+                        ),
                       ),
-                    ),
-                  ],
-                )
-              ],
+                    ],
+                  )
+                ],
+              ),
             )
           ],
         ),

@@ -43,7 +43,7 @@ List<Flutterdevelopers> dataList = [
   ),
   Flutterdevelopers(
     name: 'Sajib Adhikary',
-    title: 'Developer',
+    title: 'Flutter and Web Developer',
     twitterlink: 'https://twitter.com/sajibAdhi',
     instalink: 'www.instagram.com',
     githublink: 'https://github.com/sajibAdhi',

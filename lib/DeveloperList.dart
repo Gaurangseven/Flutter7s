@@ -49,7 +49,7 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/shwetavish',
     userimagename: 'svimage',
   ),
-   Flutterdevelopers(
+  Flutterdevelopers(
     name: 'Abhay Patgar',
     title: 'Flutter',
     twitterlink: 'https://twitter.com/united_emotion',
@@ -57,7 +57,7 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/darkbits018',
     userimagename: 'apimage',
   ),
-   Flutterdevelopers(
+  Flutterdevelopers(
     name: 'Jay Nirmal',
     title: 'Flutter Dev',
     twitterlink: 'https://twitter.com/Jaynirmal5',
@@ -65,7 +65,15 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/Jaynirmal31109',
     userimagename: 'jnimage',
   ),
-    Flutterdevelopers(
+  Flutterdevelopers(
+    name: 'Tejas gaikwad',
+    title: 'Flutter developer',
+    twitterlink: 'https://twitter.com/tejasg0504',
+    instalink: 'https://instagram.com/tejas00777',
+    githublink: 'https://github.com/Tejas-gaikwad',
+    userimagename: 'tgimage',
+  ),
+  Flutterdevelopers(
     name: 'Mbah Anya',
     title: 'Flutter',
     twitterlink: 'https://twitter.com/EyesNna',

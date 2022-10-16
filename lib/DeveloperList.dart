@@ -113,5 +113,13 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/hitchhicker007',
     userimagename: 'hhimage',
   ),
+  Flutterdevelopers(
+    name: 'Mohammed Moinuddin',
+    title: 'Flutter Dev',
+    githublink: 'https://github.com/moinuddin9777',
+    instalink: 'https://www.instagram.com/moinuddin9777',
+    twitterlink: 'https://twittwe.com/Moin971',
+    userimagename: 'moimage',
+  )
 ];
 

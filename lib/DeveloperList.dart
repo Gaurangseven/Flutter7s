@@ -98,11 +98,20 @@ List<Flutterdevelopers> dataList = [
     userimagename: 'rsimage',
   ),
   Flutterdevelopers(
+   name: 'Sajib Adhikary',
+   title: 'Flutter And Web Dev',
+   twitterlink: 'ehttps://twitter.com/sajibAdhi',
+   instalink: 'www.instagram.com/sajibadhi',
+   githublink: 'https://github.com/sajibAdhi',
+   userimagename: 'saimage',
+ ),
+ Flutterdevelopers(
     name: 'Parth Panchal',
     title: 'Flutter & Python Dev',
     twitterlink: 'https://twitter.com/hitchhickerrr',
     instalink: 'www.instagram.com/hitchhicker.tech',
     githublink: 'https://github.com/hitchhicker007',
     userimagename: 'hhimage',
-  )
+  ),
 ];
+

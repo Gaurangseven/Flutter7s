@@ -143,7 +143,7 @@ List<Flutterdevelopers> dataList = [
    twitterlink: 'https://twitter.com/mukundjogi',
    instalink: 'https://www.instagram.com/mukund.a.jogi',
    githublink: 'https://github.com/mukundjogi',
-   userimagename: 'mukundjogi',
+   userimagename: 'mjimage',
  ),
 ];
 

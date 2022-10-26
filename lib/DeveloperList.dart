@@ -138,6 +138,14 @@ List<Flutterdevelopers> dataList = [
     userimagename: 'cpimage',
   ),
   Flutterdevelopers(
+    name: 'Ruchit',
+    title: 'Flutter Developer',
+    twitterlink: 'https://twitter.com/Ruchit',
+    instalink: 'www.instagram.com',
+    githublink: 'https://github.com/Ruchit2759',
+    userimagename: 'r2759',
+  ),
+      Flutterdevelopers(
    name: 'Mukund Jogi',
    title: 'Flutter and Android Dev.',
    twitterlink: 'https://twitter.com/mukundjogi',

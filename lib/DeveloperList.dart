@@ -31,7 +31,7 @@ List<Flutterdevelopers> dataList = [
     twitterlink: 'https://twitter.com/',
     instalink: 'www.instagram.com',
     githublink: 'https://github.com/',
-    userimagename: 'peterimage',
+    userimagename: 'tdimage',
   ),
   Flutterdevelopers(
     name: 'Terry',
@@ -160,6 +160,14 @@ List<Flutterdevelopers> dataList = [
    instalink: 'https://www.instagram.com/mukund.a.jogi',
    githublink: 'https://github.com/mukundjogi',
    userimagename: 'mjimage',
+ ),
+Flutterdevelopers(
+   name: 'Tina Detroja',
+   title: 'Flutter and iOS Dev.',
+   twitterlink: 'https://twitter.com/DetrojaTina',
+   instalink: 'https://www.instagram.com',
+   githublink: 'https://github.com/tina-7span',
+   userimagename: 'yourimage name',
  ),
 ];
 

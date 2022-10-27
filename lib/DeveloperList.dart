@@ -120,7 +120,7 @@ List<Flutterdevelopers> dataList = [
     instalink: 'https://www.instagram.com/moinuddin9777',
     twitterlink: 'https://twittwe.com/Moin971',
     userimagename: 'mmimage',
-  )
+  ),
   Flutterdevelopers(
     name: 'Adarsh',
     title: 'Flutter Dev',
@@ -129,5 +129,37 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/Adarsh-190128',
     userimagename: 'github',
   ),
+  Flutterdevelopers(
+    name: 'Kumar',
+    title: 'Flutter Developer',
+    githublink: 'https://github.com/0x01-itsmurphy',
+    instalink: 'https://www.instagram.com/0x01-itsmurphy',
+    twitterlink: 'https://twittwe.com/0x01-itsmurphy',
+    userimagename: '0x01-itsmurphy',
+  ),
+   Flutterdevelopers(
+    name: 'Chetan',
+    title: 'Flutter DEV',
+    twitterlink: 'https://twitter.com/theextrovert0',
+    instalink: 'https://www.instagram.com/Widget__yard/',
+    githublink: 'https://github.com/Palchetan07',
+    userimagename: 'cpimage',
+  ),
+  Flutterdevelopers(
+    name: 'Ruchit',
+    title: 'Flutter Developer',
+    twitterlink: 'https://twitter.com/Ruchit',
+    instalink: 'www.instagram.com',
+    githublink: 'https://github.com/Ruchit2759',
+    userimagename: 'r2759',
+  ),
+      Flutterdevelopers(
+   name: 'Mukund Jogi',
+   title: 'Flutter and Android Dev.',
+   twitterlink: 'https://twitter.com/mukundjogi',
+   instalink: 'https://www.instagram.com/mukund.a.jogi',
+   githublink: 'https://github.com/mukundjogi',
+   userimagename: 'mjimage',
+ ),
 ];
 

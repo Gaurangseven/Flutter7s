@@ -167,7 +167,7 @@ Flutterdevelopers(
    twitterlink: 'https://twitter.com/DetrojaTina',
    instalink: 'https://www.instagram.com',
    githublink: 'https://github.com/tina-7span',
-   userimagename: 'yourimage name',
+   userimagename: 'tdimage',
  ),
 ];
 

@@ -98,14 +98,14 @@ List<Flutterdevelopers> dataList = [
     userimagename: 'rsimage',
   ),
   Flutterdevelopers(
-   name: 'Sajib Adhikary',
-   title: 'Flutter And Web Dev',
-   twitterlink: 'ehttps://twitter.com/sajibAdhi',
-   instalink: 'www.instagram.com/sajibadhi',
-   githublink: 'https://github.com/sajibAdhi',
-   userimagename: 'saimage',
- ),
- Flutterdevelopers(
+    name: 'Sajib Adhikary',
+    title: 'Flutter And Web Dev',
+    twitterlink: 'ehttps://twitter.com/sajibAdhi',
+    instalink: 'www.instagram.com/sajibadhi',
+    githublink: 'https://github.com/sajibAdhi',
+    userimagename: 'saimage',
+  ),
+  Flutterdevelopers(
     name: 'Parth Panchal',
     title: 'Flutter & Python Dev',
     twitterlink: 'https://twitter.com/hitchhickerrr',
@@ -137,7 +137,7 @@ List<Flutterdevelopers> dataList = [
     twitterlink: 'https://twittwe.com/0x01-itsmurphy',
     userimagename: '0x01-itsmurphy',
   ),
-   Flutterdevelopers(
+  Flutterdevelopers(
     name: 'Chetan',
     title: 'Flutter DEV',
     twitterlink: 'https://twitter.com/theextrovert0',
@@ -153,13 +153,28 @@ List<Flutterdevelopers> dataList = [
     githublink: 'https://github.com/Ruchit2759',
     userimagename: 'r2759',
   ),
-      Flutterdevelopers(
-   name: 'Mukund Jogi',
-   title: 'Flutter and Android Dev.',
-   twitterlink: 'https://twitter.com/mukundjogi',
-   instalink: 'https://www.instagram.com/mukund.a.jogi',
-   githublink: 'https://github.com/mukundjogi',
-   userimagename: 'mjimage',
- ),
+  Flutterdevelopers(
+    name: 'Mukund Jogi',
+    title: 'Flutter and Android Dev.',
+    twitterlink: 'https://twitter.com/mukundjogi',
+    instalink: 'https://www.instagram.com/mukund.a.jogi',
+    githublink: 'https://github.com/mukundjogi',
+    userimagename: 'mjimage',
+  ),
+  Flutterdevelopers(
+    name: 'Cavin Macwan',
+    title: 'Flutter Developer',
+    twitterlink: 'https://twitter.com/cavin_9999',
+    instalink: 'https://www.instagram.com/cavin10101/',
+    githublink: 'https://github.com/Cavin6080',
+    userimagename: 'cmimage',
+  ),
+  Flutterdevelopers(
+    name: 'Oscar Ngombo',
+    title: 'Flutter Developer',
+    twitterlink: 'https://twitter.com/OscarTinga',
+    instalink: 'https://www.instagram.com/13tracso/',
+    githublink: 'https://github.com/OscarNgombo',
+    userimagename: 'onimage',
+  ),
 ];
-

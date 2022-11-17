@@ -18,7 +18,7 @@ class _ListScreenState extends State<ListScreen> {
       backgroundColor: const Color(0xff1b2430),
       appBar: AppBar(
         backgroundColor: const Color(0xff01111d),
-        title: const Text("Devlopers"),
+        title: const Text("Developers"),
       ),
       body: ListView.builder(
           itemCount: dataList.length,

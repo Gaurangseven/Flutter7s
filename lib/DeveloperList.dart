@@ -207,6 +207,6 @@ List<Flutterdevelopers> dataList = [
    twitterlink: 'https://twitter.com/mayomikvn',
    instalink: 'https://www.instagram.com/',
    githublink: 'https://github.com/progeloper',
-   userimagename: 'mayomiimg',
+   userimagename: 'moimg',
  ),
 ];
